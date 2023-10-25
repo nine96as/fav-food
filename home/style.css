@@ -10,15 +10,78 @@ body {
         background-size: cover;
         background-position: center;
 }
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 1000;
+    font-style: italic;
+    letter-spacing: 5px;
+    font-size: 50px;
+    
+}
+.large-text {
+    font-size: 20rem;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 1000;
+    font-style: italic;
+    letter-spacing: 5px;
+    font-size: 50px;
+    
+}
+
+h1.display-1 {
+    font-size: 4rem; 
+    justify-content: center;
+    text-align: center; 
+}
+
+
+/*   our favourite food  */
+.text-uppercase {
+    font-family: 'Playfair Display', serif;
+    color: #b2bfeb; 
+    font-size: 2rem; 
+    font-weight: bold; 
+    display: flex;
+    justify-content: center;
+
+    
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+}
 
 
 
+.btn.btn-outline-warning:hover {
+    color: #333333; 
+    background-color: #899fdc; 
+}
+
+/* Changing the text color for "The best dish in the whole wide world!" */
+main p {
+    color: #eae1e1; 
+        font-family: 'Playfair Display', serif;
+        font-weight: 100;
+        font-style: italic;
+        letter-spacing: 5px;
+        font-size: 2rem;
+        text-align: center; 
+    
+        
+}
 
 h1 {
     font-family: 'Playfair Display', serif;
-    font-weight: 700;
+    font-weight: 1000;
     font-style: italic;
     letter-spacing: 5px;
+    font-size: 20rem;
+    
 }
 
 
