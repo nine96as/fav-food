@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;1,9..40,400&display=swap');
+
+main {
+  padding: 16px 24px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.card {
+  border-radius: 16px;
+}
+
+.card img {
+  border-radius: 16px;
+  padding: 6px;
+}
+
+.card a {
+  border-radius: 12px;
+}
+
+.order-info {
+  display: flex;
+  flex-flow: column;
+}
+
+.order-info .card {
+  max-width: 250px;
+}
+
+.order-info .card-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-info .card-body img {
+  height: 56px;
+  cursor: pointer;
+}
+
+body {
+  background-color: #edeae7;
+}
