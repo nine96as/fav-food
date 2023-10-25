@@ -1,0 +1,8 @@
+main {
+  padding: 16px 24px;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+}
