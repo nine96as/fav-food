@@ -8,12 +8,21 @@ h1 {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   font-style: italic;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  gap: 24px;
 }
 
 .cards {
   display: flex;
-  flex: 1;
   flex-flow: row wrap;
+  justify-content: center;
   align-items: center;
   gap: 16px;
 }
@@ -29,6 +38,25 @@ h1 {
 
 .card a {
   border-radius: 12px;
+}
+
+.order-info {
+  display: flex;
+  flex-flow: column;
+}
+
+.order-info .card {
+  max-width: 250px;
+}
+
+.order-info .card-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-info .card-body img {
+  height: 56px;
+  cursor: pointer;
 }
 
 body {
